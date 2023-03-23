@@ -49,10 +49,10 @@ VALUES
 -- Insert data pada tabel Penjualan
 INSERT INTO Penjualan (NoFaktur, TglFaktur, KdCustomer, KdBarang, Jumlah)
 VALUES 
-  ('P-001', DATE_FORMAT('10/1/2023', '%Y-%m-%d'), 'C-109', 'B-120', 1),
-  ('P-002', DATE_FORMAT('11/1/2023', '%Y-%m-%d'), 'C-003', 'B-124', 2),
-  ('P-003', DATE_FORMAT('11/1/2023', '%Y-%m-%d'), 'C-065', 'B-120', 1),
-  ('P-001', DATE_FORMAT('12/1/2023', '%Y-%m-%d'), 'C-109', 'B-122', 3);
+  ('P-001', DATE('10/1/2023', '%Y-%m-%d'), 'C-109', 'B-120', 1),
+  ('P-002', DATE('11/1/2023', '%Y-%m-%d'), 'C-003', 'B-124', 2),
+  ('P-003', DATE('11/1/2023', '%Y-%m-%d'), 'C-065', 'B-120', 1),
+  ('P-001', DATE('12/1/2023', '%Y-%m-%d'), 'C-109', 'B-122', 3);
 ````
 
 3.
